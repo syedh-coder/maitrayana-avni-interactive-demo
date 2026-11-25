@@ -1,0 +1,292 @@
+[
+ {
+  "feature": "Register a site",
+  "area": "Sites and batches",
+  "where": "Register > Site",
+  "what": "A site has a name, an address picked from the list, and a type: School or Community.",
+  "benefit": "Every batch is tied to a real place.",
+  "open": "regform:Site",
+  "lesson": "site",
+  "keywords": "new site school community centre place location"
+ },
+ {
+  "feature": "The right contact for the site",
+  "area": "Sites and batches",
+  "where": "Site registration",
+  "what": "A school site asks for the point of contact and number. A community site asks for the coach name and number.",
+  "benefit": "No empty or wrong boxes on the form.",
+  "open": "regform:Site",
+  "lesson": "school",
+  "keywords": "school community coach point of contact principal skip"
+ },
+ {
+  "feature": "Phone numbers checked",
+  "area": "Data quality",
+  "where": "Site and participant registration",
+  "what": "The coach number, the school contact number, a participant's mobile number and her emergency contact must have exactly 10 digits.",
+  "benefit": "Numbers you can actually call.",
+  "open": "regform:Site",
+  "lesson": "wrongphone",
+  "keywords": "mobile phone number 10 digit validation check wrong"
+ },
+ {
+  "feature": "Create a batch",
+  "area": "Sites and batches",
+  "where": "Register > Batch",
+  "what": "A batch has a name, an address, its site and a donor from Maitrayana's list.",
+  "benefit": "Sessions and reports stay per batch, per site and per donor.",
+  "open": "regform:Batch",
+  "lesson": "batch",
+  "keywords": "batch group new create donor women win"
+ },
+ {
+  "feature": "Batch linked to its site",
+  "area": "Sites and batches",
+  "where": "Batch registration",
+  "what": "The site is chosen from the registered sites, not typed.",
+  "benefit": "No spelling differences between a batch and its site.",
+  "open": "regform:Batch",
+  "lesson": "batch",
+  "keywords": "site name link choose pick"
+ },
+ {
+  "feature": "Add participants from the batch",
+  "area": "Participants",
+  "where": "Batch > Profile > Add participant",
+  "what": "A girl registered from the batch page becomes its member in the same step.",
+  "benefit": "No separate step to put her in the batch.",
+  "open": "batch:profile",
+  "lesson": "participant",
+  "keywords": "add participant member girl register new"
+ },
+ {
+  "feature": "Add a girl who is already registered",
+  "area": "Participants",
+  "where": "Batch > Add participant > Search",
+  "what": "An existing participant can be searched and added to a batch.",
+  "benefit": "One girl, one record.",
+  "open": "batch:profile",
+  "lesson": "existing",
+  "keywords": "search existing duplicate twice member"
+ },
+ {
+  "feature": "Full participant profile",
+  "area": "Participants",
+  "where": "Participant registration",
+  "what": "Contact, earlier registration, education, career, background, health and six functional difficulty questions.",
+  "benefit": "Coaches know each girl's situation and needs.",
+  "open": "participant",
+  "lesson": "participant",
+  "keywords": "profile details education health disability functional difficulty allergy"
+ },
+ {
+  "feature": "Questions that follow the answers",
+  "area": "Participants",
+  "where": "Participant registration",
+  "what": "Details are asked only when needed: school and grade when she studies, the list of allergies when she has any, the earlier site when she was registered before.",
+  "benefit": "Shorter forms and fewer mistakes.",
+  "open": "regform:Participant",
+  "lesson": "participant",
+  "keywords": "skip logic conditional questions allergy medication school"
+ },
+ {
+  "feature": "Age instead of date of birth",
+  "area": "Participants",
+  "where": "Participant registration",
+  "what": "Type the age in years or months and the app works out the date of birth.",
+  "benefit": "Works for girls who do not know their birth date.",
+  "open": "regform:Participant",
+  "lesson": "participant",
+  "keywords": "age dob date of birth years"
+ },
+ {
+  "feature": "Vriddhi Baseline for a participant",
+  "area": "Participants",
+  "where": "Participant page",
+  "what": "When a girl's batch is enrolled in Vriddhi, her page shows a Vriddhi Baseline button with the knowledge questions.",
+  "benefit": "The baseline is offered only to the girls it applies to.",
+  "open": "participant",
+  "lesson": "girlview",
+  "keywords": "vriddhi baseline knowledge questionnaire survey participant form"
+ },
+ {
+  "feature": "Five programmes",
+  "area": "Programmes",
+  "where": "Batch > Programs",
+  "what": "A batch can be enrolled in Nirman, Pragati, Akanksha, Vriddhi and Siddhi, each shown in its own colour.",
+  "benefit": "One batch record carries all its programmes.",
+  "open": "batch:programs",
+  "lesson": "enrolrest",
+  "keywords": "nirman pragati akanksha vriddhi siddhi programme program colour"
+ },
+ {
+  "feature": "Enrol a batch in a programme",
+  "area": "Programmes",
+  "where": "Batch > Programs > Enrol in Program",
+  "what": "Pick the programme, confirm the date, save. Only programmes the batch can still join are offered.",
+  "benefit": "Sessions can be recorded only where the batch really is enrolled.",
+  "open": "enrol",
+  "lesson": "enrol",
+  "keywords": "enrol enrolment join programme date"
+ },
+ {
+  "feature": "Session forms for each programme",
+  "area": "Session attendance",
+  "where": "Batch > Programs > Session Attendance",
+  "what": "Each programme has its own forms: netball and life skill for Nirman and Pragati, session and netball for Akanksha and Vriddhi, and session, netball and Disha for Siddhi.",
+  "benefit": "The right list of skills and topics for every programme.",
+  "open": "choose:siddhi",
+  "lesson": "siddhi",
+  "keywords": "netball lifeskill life skill disha form session types"
+ },
+ {
+  "feature": "What was covered",
+  "area": "Session attendance",
+  "where": "Every session form",
+  "what": "The skill or topic is chosen from the programme's own list, for example Shooting, Communication, My Vision or Career Guidance.",
+  "benefit": "Sessions can be compared against the curriculum.",
+  "open": "choose:nirman",
+  "lesson": "netball",
+  "keywords": "topic skill curriculum session shooting"
+ },
+ {
+  "feature": "Photo of the session",
+  "area": "Session attendance",
+  "where": "Every session form",
+  "what": "A picture of the session is added from the phone's camera or gallery. It is required.",
+  "benefit": "Proof that the session took place.",
+  "open": "choose:nirman",
+  "lesson": "netball",
+  "keywords": "photo picture camera gallery image proof"
+ },
+ {
+  "feature": "Tick who came",
+  "area": "Session attendance",
+  "where": "Every session form",
+  "what": "The form lists the batch's own participants. Tick the girls who were present, or use Select All.",
+  "benefit": "Attendance in a few taps, with no names typed.",
+  "open": "choose:nirman",
+  "lesson": "netball",
+  "keywords": "attendance present absent tick select all members"
+ },
+ {
+  "feature": "Present and not present counted",
+  "area": "Session attendance",
+  "where": "Every session form",
+  "what": "The number of participants present and not present is worked out from the ticks.",
+  "benefit": "No counting mistakes.",
+  "open": "choose:nirman",
+  "lesson": "vriddhi",
+  "keywords": "count number present absent automatic calculate"
+ },
+ {
+  "feature": "General sessions",
+  "area": "Common sessions",
+  "where": "Batch > Common Sessions > New Form",
+  "what": "Baseline, endline, parents meeting, graduation, peer leader and club elections, trainings and meetings.",
+  "benefit": "Sessions outside a programme are recorded too.",
+  "open": "batch:general",
+  "lesson": "general",
+  "keywords": "general baseline endline parents meeting graduation election"
+ },
+ {
+  "feature": "Community Hub sessions",
+  "area": "Common sessions",
+  "where": "Batch > Common Sessions > New Form",
+  "what": "NGO or external session, volunteer session, period champions session, celebration and follow up meeting.",
+  "benefit": "Hub activity sits next to the programme sessions.",
+  "open": "batch:general",
+  "lesson": "hub",
+  "keywords": "community hub ngo volunteer period champions celebration"
+ },
+ {
+  "feature": "Everything on the batch page",
+  "area": "See your work",
+  "where": "Batch",
+  "what": "Profile with participants, Programs with every saved session, and Common Sessions.",
+  "benefit": "The whole story of a batch in one place.",
+  "open": "batch:programs:nirman",
+  "lesson": "batchview",
+  "keywords": "batch page history completed visits sessions"
+ },
+ {
+  "feature": "Home: recent work",
+  "area": "Dashboards",
+  "where": "Home",
+  "what": "Registrations made today, and the batches with sessions in the last 3 days, programme by programme.",
+  "benefit": "A coach sees at once what has been recorded.",
+  "open": "home",
+  "lesson": "home",
+  "keywords": "home dashboard recent cards today"
+ },
+ {
+  "feature": "Total: all-time numbers",
+  "area": "Dashboards",
+  "where": "Total tab",
+  "what": "Every batch, participant and site, and the batches with sessions of each kind.",
+  "benefit": "Totals without adding anything up by hand.",
+  "open": "total",
+  "lesson": "after",
+  "keywords": "total all time numbers count dashboard"
+ },
+ {
+  "feature": "Filter the totals",
+  "area": "Dashboards",
+  "where": "Total > FILTER",
+  "what": "Narrow the Total cards to batches, participants or sites.",
+  "benefit": "Look at one kind of record at a time.",
+  "open": "filter",
+  "lesson": "home",
+  "keywords": "filter subject type narrow"
+ },
+ {
+  "feature": "Open the list behind a card",
+  "area": "Dashboards",
+  "where": "Any card",
+  "what": "A tap on a card lists the records it counts.",
+  "benefit": "From a number to the batch in one tap.",
+  "open": "card:Total Batch Registrations",
+  "lesson": "home",
+  "keywords": "card list records open"
+ },
+ {
+  "feature": "Search",
+  "area": "Find and sync",
+  "where": "Search icon on Home",
+  "what": "Find a batch, a site or a participant by a part of the name or any registration answer.",
+  "benefit": "No scrolling through long lists.",
+  "open": "search",
+  "lesson": "search",
+  "keywords": "search find name telephone parents"
+ },
+ {
+  "feature": "Works offline, then Sync",
+  "area": "Find and sync",
+  "where": "Sync icon on Home",
+  "what": "Everything is saved on the phone first. One tap on Sync uploads records and photos and downloads changes.",
+  "benefit": "Sessions can be recorded where there is no network.",
+  "open": "home",
+  "lesson": "login",
+  "keywords": "offline sync upload internet network"
+ },
+ {
+  "feature": "Each user sees what the role allows",
+  "area": "Find and sync",
+  "where": "Register, batch page",
+  "what": "What a user can do follows the user group. In UAT, city staff register batches and participants and record sessions but cannot register sites; managers can only view.",
+  "benefit": "Nobody changes data by mistake.",
+  "open": "register",
+  "lesson": "staff",
+  "keywords": "role privilege permission coach manager admin view only"
+ },
+ {
+  "feature": "Unsynced work is counted",
+  "area": "Find and sync",
+  "where": "Sync icon on Home",
+  "what": "A small number on the Sync icon shows how many saved records are still waiting to be uploaded.",
+  "benefit": "You can see at a glance that a Sync is due.",
+  "open": "home",
+  "lesson": "more",
+  "keywords": "sync badge pending upload count unsynced"
+ }
+]
