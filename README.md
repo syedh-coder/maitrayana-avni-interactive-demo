@@ -1,7 +1,7 @@
 # Maitrayana Avni: interactive demo
 
 A practice copy of Maitrayana's Avni phone app, in one offline web page. On the left, a guide with 26 lessons; on the right, a phone that runs
-Maitrayana's real forms, rules and Home cards (from the UAT bundle) on Avni's own model classes.
+Maitrayana's real forms, rules and Home cards (the bundle exported from the Maitrayana UAT org on 25 Nov 2026) on Avni's own model classes.
 
 The lessons follow the demo video "Maitrayana Avni mobile app demo": a new site, a batch, its participants, the five programmes
 (Nirman, Pragati, Akanksha, Vriddhi, Siddhi), every kind of session attendance, the common sessions, dashboards and sync.
